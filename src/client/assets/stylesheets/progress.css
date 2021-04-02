@@ -1,0 +1,51 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {
+  background-image: url('../stylesheets/img/pod-racer3.jpg');
+}
+
+main#two-columns {
+    margin: 50px 0;
+    display: flex;
+}
+
+main#two-columns section {
+    max-width: 50vw;
+}
+
+section#accelerate button {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 180%;
+    background-color: #f68a4c;
+    border-color: #f68a4c;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#big-numbers {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+#leaderBoard {
+    text-align: left;
+}
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}

@@ -1,0 +1,31 @@
+/* RESULTS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+.results {
+    margin: 0 auto;
+}
+
+.final-results {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.final-results:first-child {
+    color:#f68a4c;
+
+}
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
